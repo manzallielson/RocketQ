@@ -16,6 +16,7 @@ html {
   --overlay: #040911;
   --icon-details: #a5b0c1;
 
+  --grey-medium: #eaecf2;
   --grey-dark: #4d5e77;
   --grey-blue: #a1b2cd;
   --grey-light: #e5eaf1;
@@ -96,6 +97,22 @@ button.outlined,
   color: var(--blue);
   border: 0.2rem solid var(--blue);
 }
+
+button.red,
+.button.red {
+  font-family: 'Poppins', sans-serif;
+  background: var(--red);
+  color: var(--white);
+}
+
+button.grey,
+.button.grey {
+  font-family: 'Poppins', sans-serif;
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
+
+/* Header */
 
 .content header {
   width: 80%;
